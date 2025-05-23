@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     redirectStatusCode: '301',
     linkCacheTtl: 60,
     redirectWithQuery: false,
-    homeURL: 'https://go.carbonimpacthq.com',
+    homeURL: 'https://carbonimpacthq.com',
     cfAccountId: '',
     cfApiToken: '',
     dataset: 'sink',
