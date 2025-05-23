@@ -13,4 +13,10 @@ export default defineAppConfig({
   reserveSlug: [
     'dashboard',
   ],
+  routeRules: {
+    "/": {
+      // Temporary redirect using a 307 status code
+      redirect: "https://carbonimpacthq.com",
+    },
+  },
 })
